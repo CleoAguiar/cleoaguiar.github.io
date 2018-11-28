@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lato');
+
+html, body {
+	font-family: 'Lato', sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+.intro {
+	top: 0;
+	padding-top: 25%;
+	padding-bottom: 25%;
+	background: #EDEDED;
+	text-align: center;
+}
+
+.intro  h1 {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 40px;
+	line-height: 33px;
+	padding: 10px 10px 0px;
+}
+
+.intro  p {
+	font-size: 20px;
+	line-height: 36px;
+}
