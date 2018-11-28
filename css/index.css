@@ -4,14 +4,14 @@ html, body {
 	font-family: 'Lato', sans-serif;
 	padding: 0px;
 	margin: 0px;
+	text-align: center;
 }
 
 .intro {
 	top: 0;
 	padding-top: 25%;
 	padding-bottom: 25%;
-	background: #EDEDED;
-	text-align: center;
+	background: #ededed;
 }
 
 .intro  h1 {
@@ -24,4 +24,27 @@ html, body {
 .intro  p {
 	font-size: 20px;
 	line-height: 36px;
+}
+
+nav ul {
+	position: fixed;
+	background-color: #ededed;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	text-align: right;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 25px 55px 15px;
+	font-weight: bold;
+}
+
+nav ul a {
+	color: #999;
+}
+
+nav ul a:hover {
+	color: #000;
 }
