@@ -14,9 +14,9 @@ html, body {
 	background: #ededed;
 }
 
-.intro  h1 {
+h1 {
 	font-family: 'Gloria Hallelujah', cursive;
-	font-size: 40px;
+	font-size: 50px;
 	line-height: 33px;
 	padding: 10px 10px 0px;
 }
@@ -55,7 +55,6 @@ h2 {
 }
 
 .contact {
-	/*background-color: #ccc;*/
 	padding-top: 5%;
 	padding-bottom: 5%;
 }
@@ -65,22 +64,21 @@ h2 {
 }
 
 .contact a {
-	font-size: 30px;
+	font-size: 50px;
 	margin: 10px;
 }
 
 .fa {
 	padding: 20px;
-	font-size: 30px;
-	width: 40px;
+	width: 50px;
 	text-align: center;
 	text-decoration: none;
-	margin: 5px 2px;
+	margin: 5px 4px;
 	border-radius: 50%;
 }
 
 .fa:hover {
-	opacity: 0.7;
+	opacity: 0.6;
 }
 
 .fa-github {
