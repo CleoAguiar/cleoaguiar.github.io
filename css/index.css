@@ -5,16 +5,18 @@ html, body {
 	padding: 0px;
 	margin: 0px;
 	text-align: center;
+	background-color: #e5dbe2;
+}
+
+.intro, nav ul {
+	background-color: #e5dbe2;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ac929a' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
 
 .intro {
 	top: 0;
 	padding-top: 25%;
 	padding-bottom: 25%;
-	/*background: #ededed;
-	background-image: url("circuit-board.svg");*/
-	background-color: #e5dbe2;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ac929a' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
 
 h1 {
@@ -31,7 +33,6 @@ h1 {
 
 nav ul {
 	position: fixed;
-	background-color: #ededed;
 	margin: 0;
 	padding: 0;
 	width: 100%;
