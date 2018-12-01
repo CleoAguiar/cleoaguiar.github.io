@@ -58,15 +58,44 @@ h2 {
 	padding: 10px;
 }
 
-div.project-title img {
-	width: 100%;
-	height: auto;
+.projects {
+	text-decoration: none;
+	display: inline-block;
+	overflow: hidden;
+	height: 220px;
+	width: 280px;
+	/*margin: 40px 100px;*/
 }
 
-div.project-title {
-	padding:  15px;
+.project-picture {
+	height: 180px;
+	width: 100%;
+}
+/*
+.project-title {
+	padding: 15px;
 	text-align: center;
 }
+
+a.project-title {
+	padding: 0 6px;
+	float: left;
+	width: 24.99999%;
+}
+
+
+@media only screen and (max-width: 700px){
+	a.project-title {
+		width: 49.9999%;
+		margin: 6px 0;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	a.project-title {
+		width: 100%;
+	}
+}*/
 
 .contact {
 	padding-top: 5%;
