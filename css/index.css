@@ -26,7 +26,7 @@ h1 {
 	padding: 10px 10px 0px;
 }
 
-.intro  p, .contact p {
+.intro  p, .contact p, .show-all {
 	font-size: 20px;
 	line-height: 36px;
 }
@@ -45,17 +45,22 @@ nav ul li {
 	font-weight: bold;
 }
 
-nav ul a {
+nav ul a, .show-all {
 	color: #999;
 }
 
-nav ul a:hover {
+nav ul a, .show-all:hover {
 	color: #000;
 }
 
 h2 {
 	font-size: 30px;
 	padding: 10px;
+}
+
+.work {
+	padding-top: 60px;
+	margin-top: -60px;
 }
 
 .projects {
@@ -71,31 +76,28 @@ h2 {
 	height: 180px;
 	width: 100%;
 }
-/*
+
 .project-title {
-	padding: 15px;
-	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	/*text-align: center;*/
 }
 
-a.project-title {
-	padding: 0 6px;
-	float: left;
-	width: 24.99999%;
-}
-
-
-@media only screen and (max-width: 700px){
-	a.project-title {
-		width: 49.9999%;
-		margin: 6px 0;
-	}
-}
 
 @media only screen and (max-width: 500px){
-	a.project-title {
-		width: 100%;
+	.projects {
+		margin: 40px 0;
 	}
-}*/
+}
+
+.show-all {
+	text-decoration: none;
+	display: block;
+	width: 200px;
+	height: 30px;
+	margin: 20px auto 90px;
+	font-weight: bold;
+}
 
 .contact {
 	padding-top: 5%;
