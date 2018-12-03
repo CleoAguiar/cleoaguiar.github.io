@@ -45,11 +45,11 @@ nav ul li {
 	font-weight: bold;
 }
 
-nav ul a, .show-all {
+nav ul a {
 	color: #999;
 }
 
-nav ul a, .show-all:hover {
+nav ul a:hover {
 	color: #000;
 }
 
@@ -97,6 +97,11 @@ h2 {
 	height: 30px;
 	margin: 20px auto 90px;
 	font-weight: bold;
+	color: #999;
+}
+
+.show-all:hover {
+	color: #000;
 }
 
 .contact {
