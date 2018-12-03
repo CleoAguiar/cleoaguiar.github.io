@@ -37,6 +37,7 @@ nav ul {
 	padding: 0;
 	width: 100%;
 	text-align: right;
+	z-index: 1;
 }
 
 nav ul li {
@@ -108,7 +109,7 @@ a.projects:hover .middle {
 	-ms-transform: translate(-50%, -50%);
 }
 
-.project-title {
+.project-tile {
 	font-weight: bold;
 	font-size: 24px;
 	height: 50%;
@@ -117,7 +118,7 @@ a.projects:hover .middle {
 @media only screen and (max-width: 500px) {
 	nav ul {
 		text-align: center;
-		z-index: 1;
+		position: fixed;
 	}
 
 	.projects {
