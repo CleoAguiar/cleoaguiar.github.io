@@ -63,13 +63,20 @@ h2 {
 	margin-top: -60px;
 }
 
+a.projects {
+	padding: 30px;
+	margin: 10px;
+}
+
 .projects {
 	text-decoration: none;
 	display: inline-block;
+	color: #000;
 	overflow: hidden;
+	/*background-color: lightblue;*/
+	border-radius: 10px;
 	height: 220px;
 	width: 280px;
-	/*margin: 40px 100px;*/
 }
 
 .project-picture {
@@ -80,13 +87,17 @@ h2 {
 .project-title {
 	font-weight: bold;
 	padding: 10px;
-	/*text-align: center;*/
+	text-align: center;
 }
 
 
 @media only screen and (max-width: 500px){
+	nav ul {
+		text-align: center;
+	}
+
 	.projects {
-		margin: 40px 0;
+		/*margin: 40px 0;*/
 	}
 }
 
@@ -107,6 +118,7 @@ h2 {
 .contact {
 	padding-top: 5%;
 	padding-bottom: 5%;
+	margin-top: -60px;
 }
 
 .contact p {
