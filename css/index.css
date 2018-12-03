@@ -64,8 +64,10 @@ h2 {
 }
 
 a.projects {
-	padding: 30px;
+	padding: 20px;
 	margin: 10px;
+	background-color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .projects {
@@ -73,8 +75,6 @@ a.projects {
 	display: inline-block;
 	color: #000;
 	overflow: hidden;
-	/*background-color: lightblue;*/
-	border-radius: 10px;
 	height: 220px;
 	width: 280px;
 }
@@ -82,6 +82,7 @@ a.projects {
 .project-picture {
 	height: 180px;
 	width: 100%;
+	border: 2px solid #e5dbe2;
 }
 
 .project-title {
@@ -91,13 +92,13 @@ a.projects {
 }
 
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px) {
 	nav ul {
 		text-align: center;
 	}
 
 	.projects {
-		/*margin: 40px 0;*/
+		margin: 40px 0;
 	}
 }
 
