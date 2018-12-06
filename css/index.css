@@ -115,17 +115,6 @@ a.projects:hover .middle {
 	height: 50%;
 }
 
-@media only screen and (max-device-width: 500px) {
-	nav ul {
-		text-align: center;
-		position: fixed;
-	}
-
-	.projects {
-		margin: 10px 0;
-	}
-}
-
 .show-all {
 	text-decoration: none;
 	display: block;
@@ -189,13 +178,59 @@ footer {
 }
 
 @media only screen and (max-device-width: 768px) {
-	a.projects {
+	h1 {
+		font-size: 72px;
+	}
+
+	h2 {
+		font-size: 50px;
+	}
+
+	.intro  p, .contact p, .show-all {
+		font-size: 32px;
+	}
+
+	nav ul {
+		text-align: center;
+		position: fixed;
+		font-size: 32px;
+	}
+
+	.projects {
 		display: block;
-		margin: 30px auto 20px;
+		text-decoration: none;
+		color: #000;
+		height: auto;
+		width: 80%;
+	}
+
+	a.projects {
+		margin: 30px auto;
+		padding: 20px;
+		background-color: #fff;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 	}
 
 	.project-picture {
 		width: 100%;
+		border: 2px solid #e5dbe2;
+		opacity: 1;
+		display: block;
+	}
+
+	.middle {
+		opacity: 1;
+		background-color: #fff;
+		position: relative;
+		text-align: left;
+		margin-top: 30px;
+	}
+
+	.project-tile {
+		font-weight: bold;
+		font-size: 32px;
+		margin: 20px;
 	}
 
 	.contact-details {
