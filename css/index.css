@@ -115,7 +115,7 @@ a.projects:hover .middle {
 	height: 50%;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-device-width: 500px) {
 	nav ul {
 		text-align: center;
 		position: fixed;
@@ -186,4 +186,24 @@ a.projects:hover .middle {
 footer {
 	margin: 10px;
 	padding: 10px;
+}
+
+@media only screen and (max-device-width: 768px) {
+	a.projects {
+		display: block;
+		margin: 30px auto 20px;
+	}
+
+	.project-picture {
+		width: 100%;
+	}
+
+	.contact-details {
+	    border: 2px solid #90C695;
+	    border-radius: 0;
+	    width: 90px;
+	    height: 20px;
+	    padding: 10px;
+	    line-height: normal;
+  }
 }
