@@ -186,6 +186,11 @@ footer {
 		font-size: 50px;
 	}
 
+	.intro {
+		padding-top: 70%;
+		padding-bottom: 80%;
+	}
+
 	.intro  p, .contact p, .show-all {
 		font-size: 32px;
 	}
