@@ -237,6 +237,11 @@ footer {
 		margin: 20px;
 	}
 
+	.contact {
+		padding-top: 30%;
+		padding-bottom: 60%;
+	}
+
 	.contact-details {
 	    width: 90px;
 	    height: 20px;
